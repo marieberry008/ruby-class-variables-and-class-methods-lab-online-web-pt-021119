@@ -34,7 +34,6 @@ class Song
   end
   
   @@artists = []
-  end
   
   def self.artists
     @@artists.uniq
