@@ -16,7 +16,6 @@ class Song
   attr_accessor :name, :artist, :genre
     
   @@genres = []
-  end
   
   def self.genres
     @@genres.uniq
